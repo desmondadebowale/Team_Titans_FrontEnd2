@@ -3,7 +3,7 @@
   /* --secondary-color: ;
   --light-color: ; */
   --dark-color: #151412;
-  --light-dark-color: #1E1E1C;
+  --light-dark-color: #1e1e1c;
 }
 
 * {
@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Source Sans Pro'; 
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -21,8 +21,13 @@ body {
   background: var(--dark-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display";
 }
 
 /* Nav Section */
@@ -42,7 +47,8 @@ a {
   border-radius: 0;
 }
 
-.btn-primary, .btn-primary:hover {
+.btn-primary,
+.btn-primary:hover {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
 }
@@ -69,15 +75,14 @@ a {
   margin-right: 1.3rem;
 }
 
-.navbar ul li a{
-  font-family: 'Playfair Display', serif;
+.navbar ul li a {
+  font-family: "Playfair Display", serif;
 }
-
 
 /* Section - Hero */
 
 #hero {
-  background: url('../img/hero.jpeg') no-repeat center center/cover;
+  background: url("../img/hero.jpeg") no-repeat center center/cover;
   background-attachment: fixed;
 }
 
@@ -90,7 +95,6 @@ a {
   width: 50%;
   align-items: center;
 }
-
 
 /* Section - About Us */
 
@@ -106,7 +110,8 @@ a {
 
 #about-us .about-img {
   height: 500px;
-  background: url('../img/olexandr-ignatov-w72a24brINI-unsplash.jpg') no-repeat center center/cover;
+  background: url("../img/olexandr-ignatov-w72a24brINI-unsplash.jpg") no-repeat
+    center center/cover;
 }
 
 /* Section - Rooms and Suites */
@@ -118,7 +123,7 @@ a {
 
 #rooms-suites .rooms-img {
   height: 500px;
-  background: url('../img/rooms-and-suites.jpg') no-repeat center center/cover;
+  background: url("../img/rooms-and-suites.jpg") no-repeat center center/cover;
 }
 
 /* Section - Our Facilities */
@@ -135,7 +140,7 @@ a {
 .facilities-card .arrow-btn {
   width: 40px;
   height: 40px;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 #book-now {
@@ -144,74 +149,75 @@ a {
 
 /* Section - Footer */
 
-#footer{
+#footer {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
   margin-top: 1rem;
-  border-bottom: 1px solid #D8D8D8;
+  border-bottom: 1px solid #d8d8d8;
 }
 
-#footer ul{
+#footer ul {
   display: flex;
   align-items: center;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   list-style: none;
   /* margin-top: 29px; */
 }
 
-#footer ul a{
+#footer ul a {
   justify-content: space-between;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: rgba(255, 255, 255, 0.903504);
   font-size: 12px;
   padding: 0.75rem;
   margin: 0 0.25rem;
 }
 
-#footer ul li a:last-of-type{
+#footer ul li a:last-of-type {
   padding-right: 0;
 }
 
-#footer div, ul{
+#footer div,
+ul {
   margin-top: 29px;
   margin-bottom: 12px;
 }
 
-#footer2{
+#footer2 {
   display: flex;
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
 }
 
-#footer2 p{
+#footer2 p {
   margin-top: 26px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 26px;
-  color: #F0F0F0;
+  color: #f0f0f0;
   text-align: center;
   height: 100%;
 }
 
-#footer2 ul{
+#footer2 ul {
   display: flex;
   align-items: center;
   list-style: none;
   /* margin-top: 29px; */
 }
 
-#footer2 ul a{
+#footer2 ul a {
   justify-content: space-between;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: rgba(255, 255, 255, 0.903504);
   font-size: 16px;
   padding: 0.75rem;
   margin: 18px 4px;
 }
 
-#footer2 ul li a:last-of-type{
+#footer2 ul li a:last-of-type {
   padding-right: 0;
 }
 
@@ -248,9 +254,8 @@ a {
 }
 
 .intro-heading {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-size: 2.5rem;
-
 }
 
 .intro-text {
@@ -272,7 +277,7 @@ a {
 
 /* Facilities image-gallery */
 
-.watermark{
+.watermark {
   width: 1000px;
   height: 550px;
   position: absolute;
@@ -290,7 +295,7 @@ a {
                               Responsiveness 
 =================================================================================== */
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   #hero .hero-content {
     width: 100%;
     text-align: center;
@@ -315,7 +320,8 @@ a {
     margin-bottom: 2rem;
   }
 
-  footer div div:last-child, footer nav {
+  footer div div:last-child,
+  footer nav {
     flex-direction: column;
     text-align: center;
   }
@@ -324,20 +330,20 @@ a {
     padding-left: 0;
   }
 
-  #footer{
+  #footer {
     flex-direction: column;
     align-items: center;
   }
-  
-  #footer div{
+
+  #footer div {
     display: none;
   }
-  
-  #footer ul{
+
+  #footer ul {
     padding-top: 1px;
   }
-  
-  #footer2 p{
+
+  #footer2 p {
     font-size: 15px;
     margin-top: 30px;
   }
